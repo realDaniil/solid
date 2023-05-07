@@ -1,0 +1,145 @@
+.modal {
+	z-index: 110;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.9);
+	justify-content: center;
+	display: none;
+	overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.modal.active {
+	display: flex;
+}
+
+.closeBtn {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	padding: 1rem;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.closeBtn:hover {
+	background-color: rgb(50, 50, 50);
+}
+
+.closeBtn:active {
+	background-color: rgb(80, 80, 80);
+}
+
+.content_holder {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.img_firstHolder {
+	margin-top: 10rem;
+	display: flex;
+	align-items: start;
+}
+
+.img_holder {
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 50px;
+}
+
+.img_holder img {
+	width: 80%;
+}
+
+.modal_text {
+  background: #1A1A1D;
+	padding: 2rem;
+}
+
+.modal_text h3 {
+	margin: 2rem 0;
+	text-align: center;
+	font-size: 22px;
+}
+
+.quantityHolder {
+	display: flex;
+	align-items: center;
+}
+
+.quantityBtn {
+	color: black;
+	border-radius: 50%;
+	font-size: 25px;
+	margin: 0 10px;
+	background: rgb(80, 80, 80);
+	user-select: none;
+	transition: 0.2s;
+}
+
+.quantityBtn.active {
+	cursor: pointer;
+	background: white;
+}
+
+.quantityBtn.active:hover {
+	transform: scale(1.05);
+}
+
+.size_holder {
+	display: flex;
+}
+
+.size_holder p {
+	border: 1px solid #ebedee;
+	padding: 10px 15px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	width: 30px;
+	transition: 0.1s;
+}
+
+.size:hover {
+	color: #1A1A1D;
+	background: #ebedee;
+}
+
+.selectedSize {
+	color: black;
+	background: white;
+	font-weight: 600;
+	border: 1px solid #fff;
+}
+
+.payBtn {
+	padding: 10px 20px;
+	width: 300px;
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	background: #C3073F;
+	border: none;
+	outline: none;
+	transition: 0.3s;
+	cursor: pointer;
+	user-select: none;
+}
+
+.payBtn:hover {
+	filter: brightness(70%);
+}
+
+.payBtn:active {
+	filter: brightness(50%);
+}

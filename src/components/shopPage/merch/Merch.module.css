@@ -1,0 +1,24 @@
+.section {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.section h2 {
+	text-align: center;
+	margin: 1rem;
+}
+
+.tShirt_holder, .hoodie_holder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+	padding: 1rem;
+}
+
+.merchImg {
+	min-width: 250px;
+	width: 23vw;
+	margin: 5px;
+	border: 1px solid black;
+}

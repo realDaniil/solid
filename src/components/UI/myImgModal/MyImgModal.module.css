@@ -1,0 +1,89 @@
+.myModal {
+	z-index: 110;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.9);
+	align-items: center;
+	justify-content: center;
+	display: none;
+	/* -webkit-backdrop-filter: blur(1px); */
+	/* backdrop-filter: blur(1px); */
+}
+
+.myModal.active {
+	display: flex;
+}
+
+.closeBtn {
+	z-index: 120;
+	color: white;
+	background: rgba(150, 150, 150, 0.4);
+	position: absolute;
+	top: 0;
+	right: 0;	
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	transition: 0.2s ease;
+	animation: close-animation 1 0.2s;
+}
+
+.closeBtn:hover {
+	background-color: rgba(120, 120, 120, 0.4);
+}
+
+@keyframes close-animation {
+	0% {
+		top: -100px;
+		right: -100px;
+	} 100% {
+		top: 0;
+		right: 0;
+	}
+}
+
+.modalImage {
+	max-width: 100vw;
+	max-height: 100vh;
+	transition: 0.2s;
+	position: relative;
+	animation: image-animation 1 0.2s;
+}
+
+@keyframes image-animation {
+	0% {
+		transform: scale(0);
+	} 100% {
+		transform: scale(1);
+	}
+}
+
+.zoomHolder {
+	z-index: 120;
+	position: absolute;
+	top: 0;
+	animation: zoom-animation 1 0.2s;
+}
+
+.zoomBtn {
+	transition: 0.2s ease;
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	background-color: rgba(150, 150, 150, 0.4);
+}
+
+.zoomBtn:hover {
+	background-color: rgba(120, 120, 120, 0.4);
+}
+
+@keyframes zoom-animation {
+	0% {
+		top: -100px;
+	} 100% {
+		top: 0;
+	}
+}

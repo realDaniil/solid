@@ -1,0 +1,24 @@
+.item {
+	z-index: 100;
+	position: fixed;
+	bottom: -1000px;
+	right: 0;
+	left: 0;
+	padding: 1rem 100px;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.8);
+	animation: itemAnimation 8s 1;
+}
+
+@keyframes itemAnimation {
+	0% {
+		bottom: -1000px;
+	} 5% {
+		bottom: 0;
+	} 95% {
+		bottom: 0;
+	} 100% {
+		bottom: -1000px;
+	}
+}

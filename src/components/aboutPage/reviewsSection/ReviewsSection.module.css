@@ -1,0 +1,61 @@
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.btns_holder {
+	width: 90%;
+	height: 50px;
+	margin: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.btn {
+	background: rgb(150, 5, 50);
+	cursor: pointer;
+	padding: 5px 10px;
+	color: white;
+	border: none;
+	outline: none;
+	transition: 0.2s;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.btn:hover {
+	color: rgb(150, 5, 50);
+	background: white;
+}
+
+.btn:hover:active {
+	filter: brightness(0.8);
+}
+
+.sort_options {
+	position: absolute;
+	right: 0;
+	top: 50px;
+	background: rgb(36, 36, 39);
+	border: 1px solid white;
+	display: none;
+	box-shadow: 0 0 8px black;
+}
+.sort_options.active {
+	display: block;
+}
+
+.sort_option {
+	padding: 6px 10px;
+	cursor: pointer;
+	transition: 0.1s;
+	user-select: none;
+}
+
+.sort_option:hover {
+	background: rgb(60, 60, 60);
+}

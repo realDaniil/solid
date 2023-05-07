@@ -1,0 +1,29 @@
+.anchor {
+	z-index: 100;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+	border: solid 2px #C3073F;
+	color: #C3073F;
+	padding: 10px;
+	transition: 0.2s ease;
+	animation: anchor 2s infinite;
+	cursor: pointer;
+}
+
+.anchor:hover {
+	animation: none;
+}
+
+@keyframes anchor {
+	0% {
+		filter: opacity(100%);
+	}
+	50% {
+		filter: opacity(0);
+	}
+	100% {
+		filter: opacity(100%);
+	}
+}

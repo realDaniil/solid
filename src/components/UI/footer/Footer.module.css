@@ -1,0 +1,104 @@
+.footer {
+	background: black;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 2rem 0 4rem;
+}
+
+.footer p, a {
+	color:rgb(180, 180, 180);
+}
+
+.contact_item a {
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.contact_item a:hover {
+	color: white;
+}
+
+.icons {
+	color: #C3073F;
+	min-width: 20px;
+	margin-right: 10px;
+}
+
+.footer h3 {
+	font-size: 24px;
+	margin-bottom: 1rem;
+	color: white;
+}
+
+.toMain {
+	margin: 2rem 1rem;
+	display: inline-block;
+	color: #C3073F;
+	transition: 0.2s ease;
+	text-decoration: none;
+	position: relative;
+	padding: 5px 0;
+}
+
+.toMain::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 0;
+	height: 1.2px;
+	background-color: #C3073F;
+}
+
+.toMain:hover:before {
+	width: 100%;
+}
+
+.toMain:before {
+	transition: width 0.35s;
+}
+
+.about_us {
+	padding: 1rem;
+	margin-left: 2rem;
+}
+
+.schedule {
+	padding: 1rem;
+}
+
+.contacts {
+	padding: 1rem;
+}
+
+.contact_item {
+	display: flex;
+	align-items: center;
+	padding: 0.8rem;
+}
+
+.a_holder {
+	padding-top: 1rem;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.a_holder * {
+	color: white;
+	background: #C3073F;
+	border-radius: 10px;
+	padding: 4px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.a_holder a {
+	display: flex;
+	transition: 0.2s ease;
+}
+.a_holder a:hover {
+	transform: scale(1.1);
+}
