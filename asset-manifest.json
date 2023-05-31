@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/solid/static/css/main.7d58b158.css",
-    "main.js": "/solid/static/js/main.9db6ab4b.js",
+    "main.css": "/solid/static/css/main.00bfe12b.css",
+    "main.js": "/solid/static/js/main.912f1614.js",
     "static/media/solidVideo.mp4": "/solid/static/media/solidVideo.5d7e885e5573241b9b64.mp4",
     "static/media/gallery2.jpg": "/solid/static/media/gallery2.daab5cdc15b8f99ccae4.jpg",
     "static/media/gallery6.jpg": "/solid/static/media/gallery6.f348e5c135d05a3fdfc9.jpg",
@@ -31,28 +31,28 @@
     "static/media/black-hoodie-SOLID.png": "/solid/static/media/black-hoodie-SOLID.c8652d16e4ea357f0900.png",
     "static/media/about-welcome-section.jpg": "/solid/static/media/about-welcome-section.98e18c43db05457d0174.jpg",
     "static/media/shop-welcome-section.jpg": "/solid/static/media/shop-welcome-section.73a37f97fb53cc804f5a.jpg",
-    "static/media/technogym-logo.svg": "/solid/static/media/technogym-logo.882e66c689afd0ba4836bd3d961d3e06.svg",
+    "static/media/technogym-logo.svg": "/solid/static/media/technogym-logo.3076e85378f24be14f1a5077b86e6f7e.svg",
     "static/media/coaches-welcome-section.jpg": "/solid/static/media/coaches-welcome-section.6bc4dcb17994dd30a99e.jpg",
     "static/media/black-shirt-SOLID.png": "/solid/static/media/black-shirt-SOLID.518dec4780c3a0ee6c8a.png",
-    "static/media/red-bull-logo.svg": "/solid/static/media/red-bull-logo.fd7155596cd2340175594686fd5dc275.svg",
-    "static/media/new-balance-logo.svg": "/solid/static/media/new-balance-logo.0dafd91e151af7cbc3c66f5ff7741cdb.svg",
-    "static/media/life-fitness-logo.svg": "/solid/static/media/life-fitness-logo.7f0eae032c7aa755bda8956bf03cd9b7.svg",
-    "static/media/hammer-strength-logo.svg": "/solid/static/media/hammer-strength-logo.16536dd6e614c21da932785dc2eba891.svg",
-    "static/media/reebok-logo.svg": "/solid/static/media/reebok-logo.9a34343703564bbea816c2fecc58d35a.svg",
-    "static/media/hummel-logo.svg": "/solid/static/media/hummel-logo.cbd1e1115e800ef44255d024a1560930.svg",
-    "static/media/logo_solid_w.svg": "/solid/static/media/logo_solid_w.434935cc99c2051a5734d5e905487bea.svg",
-    "static/media/puma-logo.svg": "/solid/static/media/puma-logo.fc94124f7ca7c279b81b63d40978ef64.svg",
-    "static/media/asics-logo.svg": "/solid/static/media/asics-logo.e927d82b81f37a43de23c483047734d6.svg",
-    "static/media/adidas-logo.svg": "/solid/static/media/adidas-logo.d990d00424545e55aa4cd017e7cf9022.svg",
-    "static/media/fila-logo.svg": "/solid/static/media/fila-logo.8170f5d70dd9fb6884502c4308ed4798.svg",
-    "static/media/dorian-yates-nutrition-logo.svg": "/solid/static/media/dorian-yates-nutrition-logo.962c6cad342c5c0a5637b4b036610f41.svg",
-    "static/media/nike-logo.svg": "/solid/static/media/nike-logo.0bef4cdbd351abb99992ca1afb23fc2e.svg",
+    "static/media/red-bull-logo.svg": "/solid/static/media/red-bull-logo.36ee6d4b0190110c76b6315d759d2c95.svg",
+    "static/media/new-balance-logo.svg": "/solid/static/media/new-balance-logo.f20d531978034891866c6c733f8633a5.svg",
+    "static/media/life-fitness-logo.svg": "/solid/static/media/life-fitness-logo.c7187511404a3547770f1dc60908b299.svg",
+    "static/media/hammer-strength-logo.svg": "/solid/static/media/hammer-strength-logo.e5de932edb1944b11632d1747f6e8c40.svg",
+    "static/media/reebok-logo.svg": "/solid/static/media/reebok-logo.d492f3f9bfa0cb3c79dee531149b5df2.svg",
+    "static/media/hummel-logo.svg": "/solid/static/media/hummel-logo.a94a3613307387196011f71d2b77cf37.svg",
+    "static/media/logo_solid_w.svg": "/solid/static/media/logo_solid_w.e235eb58394ee224c7417ae9bef83e9e.svg",
+    "static/media/puma-logo.svg": "/solid/static/media/puma-logo.6448ac4ec85f918badabded08fe352d4.svg",
+    "static/media/asics-logo.svg": "/solid/static/media/asics-logo.e8b23a2e7cbe4ce73325d36d985e44d3.svg",
+    "static/media/adidas-logo.svg": "/solid/static/media/adidas-logo.51b6f5471e23ea9e4a615d6dc83acbf5.svg",
+    "static/media/fila-logo.svg": "/solid/static/media/fila-logo.a42c38be136375ffcc5924617792d63d.svg",
+    "static/media/dorian-yates-nutrition-logo.svg": "/solid/static/media/dorian-yates-nutrition-logo.91205865bae48453389460e3de6a1bab.svg",
+    "static/media/nike-logo.svg": "/solid/static/media/nike-logo.30f290172c9f18f1c720f1d4b180a7a9.svg",
     "index.html": "/solid/index.html",
-    "main.7d58b158.css.map": "/solid/static/css/main.7d58b158.css.map",
-    "main.9db6ab4b.js.map": "/solid/static/js/main.9db6ab4b.js.map"
+    "main.00bfe12b.css.map": "/solid/static/css/main.00bfe12b.css.map",
+    "main.912f1614.js.map": "/solid/static/js/main.912f1614.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d58b158.css",
-    "static/js/main.9db6ab4b.js"
+    "static/css/main.00bfe12b.css",
+    "static/js/main.912f1614.js"
   ]
 }
