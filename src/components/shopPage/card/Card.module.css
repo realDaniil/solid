@@ -1,0 +1,69 @@
+.card {
+	width: 20%;
+	min-width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	transition: 0.2s ease;
+	margin: 2rem 1rem;
+}
+
+.card * {
+	transition: 0.2s ease;
+}
+
+.card p {
+	font-weight: 600;
+}
+
+.name {
+	margin: 30px 0 10px 0;
+	font-size: 18px;
+}
+
+.price {
+	font-size: 16px;
+	color: #C3073F;
+}
+
+.img_holder {
+	width: 100%;
+}
+
+.img {
+	width: 90%;
+}
+
+.btn {
+	padding: 10px 15px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	background: #C3073F;
+	border: none;
+	outline: none;
+	transition: 0.3s;
+	cursor: pointer;
+	user-select: none;
+}
+
+.btn:hover {
+	filter: brightness(70%);
+}
+
+.btn:active {
+	filter: brightness(50%);
+}
+
+@media (max-width: 510px) {
+	.card {
+		min-width: 140px;
+	}
+}
+
+@media (max-width: 390px) {
+	.card {
+		min-width: 100px;
+	}
+}

@@ -1,0 +1,162 @@
+.btnHolder {
+	position: fixed;
+	bottom: 20px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(195, 7, 63, 0.5);
+	z-index: 100;
+	width: 80px;
+	height: 80px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.btnHolder:hover {
+	transform: scale(1.05);
+	background: #C3073F;
+}
+
+.btnHolder:hover * {
+	animation: none;
+}
+
+.btn {
+	cursor: pointer;
+	border-radius: 50%;
+	background: #C3073F;
+	width: 70px;
+	height: 70px;
+	border: none;
+	outline: none;
+	animation: shake 5s infinite;
+	transition: 0.5s;
+	color: white;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+@keyframes shake {
+	1% { transform: translate(0, 0) rotate(0deg); }
+	79% { transform: translate(0, 0) rotate(0deg); }
+	80% { transform: translate(1px, 1px) rotate(0deg); }
+	81% { transform: translate(-1px, -2px) rotate(-1deg); }
+	82% { transform: translate(-3px, 0px) rotate(1deg); }
+	83% { transform: translate(3px, 2px) rotate(0deg); }
+	84% { transform: translate(1px, -1px) rotate(1deg); }
+	85% { transform: translate(-1px, 2px) rotate(-1deg); }
+	86% { transform: translate(-3px, 1px) rotate(0deg); }
+	87% { transform: translate(3px, 1px) rotate(-1deg); }
+	88% { transform: translate(-1px, -1px) rotate(1deg); }
+	89% { transform: translate(1px, 2px) rotate(0deg); }
+	90% { transform: translate(1px, 2px) rotate(-4deg); }
+	90% { transform: translate(2px, 0px) rotate(-2deg); }
+	91% { transform: translate(0px, 2px) rotate(0deg); }
+	92% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.callUsModal {
+	z-index: 110;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.6);
+	align-items: center;
+	justify-content: center;
+	display: none;
+	/* -webkit-backdrop-filter: blur(1px); */
+	/* backdrop-filter: blur(1px); */
+	cursor: pointer;
+}
+
+.callUsModal.active {
+	display: flex;
+}
+
+.modalContentHolder {
+	cursor: auto;
+	position: relative;
+	background: white;
+	color: white;
+	padding: 4rem;
+	background: rgba(195, 7, 63, 0.7);
+	/* -webkit-backdrop-filter: blur(1px); */
+	/* backdrop-filter: blur(1px); */
+}
+
+.callUsModal *::selection {
+	background: rgb(235, 20, 80);
+}
+
+.title {
+	font-size: 18px;
+}
+
+.otherP {
+	font-size: 14px;
+	margin: 5px 0;
+	color: rgb(220, 220, 220);
+}
+
+.closeBtn {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.closeBtn:hover {
+	transform: scale(1.2);
+}
+
+.inputHolder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.modalInput, .modalBtn {
+	padding: 1rem;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	transition: 0.2s;
+}
+
+.timer {
+	font-size: 16px;
+	padding: 1rem;
+}
+
+.modalBtn {
+	color: white;
+	background: transparent;
+}
+
+.modalBtn.active {
+	cursor: pointer;
+	background: #C3073F;
+}
+
+.modalBtn.active:hover {
+	filter: brightness(90%);
+}
+
+@media (max-width: 600px) {
+	.inputHolder {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 350px) {
+	.closeBtn {
+		position: fixed;
+	}
+}

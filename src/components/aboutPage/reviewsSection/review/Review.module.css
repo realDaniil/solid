@@ -1,0 +1,29 @@
+.review {
+	width: 90%;
+	margin: 10px 0;
+	overflow-x: auto;
+}
+
+.header {
+	margin: auto;
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.user_info_holder {
+	display: flex;
+	align-items: center;
+}
+
+.avatar {
+	min-width: 30px;
+	min-height: 30px;
+	width: 30px;
+	height: 30px;
+}
+
+.body {
+	color: rgb(210, 210, 210);
+}

@@ -1,0 +1,27 @@
+.partners {
+	background: white;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem 0;
+	margin: 60px 0;
+	color: black;
+	overflow: hidden;
+}
+
+.logo_holder {
+	padding: 2rem 0 2rem 0;
+	width: 100%;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: 1s ease;
+}
+
+.logo_holder img {
+	margin: 10px;
+	width: 130px;
+}
+

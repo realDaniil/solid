@@ -1,0 +1,120 @@
+.header {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: 0.1s ease-in;
+	z-index: 100;
+}
+
+.logo {
+  width: 80px;
+	margin-left: 2rem;
+}
+
+.content_holder {
+	display: flex;
+	align-items: center;
+	margin-right: 2rem;
+}
+
+.content_holder * {
+	margin: 0.4rem;
+	color: white;
+	transition: 0.2s ease-in-out;
+}
+
+.link_holder {
+	display: none;
+}
+
+.link_holder a {
+	text-decoration: none;
+	position: relative;
+}
+
+.link_holder a::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 0;
+	height: 1.2px;
+	background-color: white;
+}
+
+.link_holder a:hover:before {
+	width: 100%;
+}
+
+.link_holder a::before {
+	transition: width 0.35s;
+}
+
+.burger {
+	cursor: pointer;
+	display: none;
+}
+
+.burgerMenu {
+	display: none;
+}
+
+.burgerMenu.active {
+	display: block;
+}
+
+.backgroundBurgerMenu {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+}
+
+.burger_link_holder {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	min-width: 200px;
+	background: white;
+	padding: 4rem 2rem;
+}
+
+.burger_link_holder a {
+text-decoration: none;
+}
+
+.burger_link_holder p {
+	color: black;
+	margin: 8px 0;
+	font-weight: 600;
+}
+
+.closeBtn {
+	color: black;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 22px;
+}
+
+@media (max-width: 801px) {
+	.burger {
+		display: block;
+	}
+}
+
+@media (min-width: 801px) {
+	.link_holder {
+		display: flex;
+	}
+}

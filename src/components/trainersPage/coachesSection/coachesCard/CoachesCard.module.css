@@ -1,0 +1,51 @@
+.card {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card p {
+	color: rgb(230, 230, 230);
+}
+
+.imgHolder {
+	padding: 20px;
+}
+
+.img {
+	width: 200px;
+}
+
+.infoHolder {
+	padding: 20px;
+}
+
+.infoHolder a {
+	text-decoration: none;
+	transition: 0.2s;
+	color: rgb(205, 30, 75);
+}
+
+.infoHolder a:hover {
+	color: white;
+}
+
+@media (max-width: 600px) {
+	.card {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.img {
+		width: 100px;
+	}
+}
+
+@media (max-width: 350px) {
+	.card {
+		flex-direction: column;
+		align-items: center;
+	}
+}
