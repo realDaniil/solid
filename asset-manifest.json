@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/solid/static/css/main.cd3d2fae.css",
-    "main.js": "/solid/static/js/main.912f1614.js",
+    "main.js": "/solid/static/js/main.d5718c51.js",
     "static/media/solidVideo.mp4": "/solid/static/media/solidVideo.5d7e885e5573241b9b64.mp4",
     "static/media/gallery2.jpg": "/solid/static/media/gallery2.daab5cdc15b8f99ccae4.jpg",
     "static/media/gallery6.jpg": "/solid/static/media/gallery6.f348e5c135d05a3fdfc9.jpg",
@@ -49,10 +49,10 @@
     "static/media/nike-logo.svg": "/solid/static/media/nike-logo.30f290172c9f18f1c720f1d4b180a7a9.svg",
     "index.html": "/solid/index.html",
     "main.cd3d2fae.css.map": "/solid/static/css/main.cd3d2fae.css.map",
-    "main.912f1614.js.map": "/solid/static/js/main.912f1614.js.map"
+    "main.d5718c51.js.map": "/solid/static/js/main.d5718c51.js.map"
   },
   "entrypoints": [
     "static/css/main.cd3d2fae.css",
-    "static/js/main.912f1614.js"
+    "static/js/main.d5718c51.js"
   ]
 }
