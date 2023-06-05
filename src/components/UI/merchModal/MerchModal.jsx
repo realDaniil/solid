@@ -7,8 +7,7 @@ function MerchModal({ visible, setVisible, modalData }) {
 	const classesModal = [cl.modal]
 	if (visible) {
 		classesModal.push(cl.active)
-		document.body.style.overflow = 'hidden'
-	} else document.body.style.overflow = ''
+	} 
 	const sizeHolder = useRef()
 	const selectSize = e => {
 		if (e.target.tagName === 'P') {
