@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/solid/static/css/main.00bfe12b.css",
+    "main.css": "/solid/static/css/main.cd3d2fae.css",
     "main.js": "/solid/static/js/main.912f1614.js",
     "static/media/solidVideo.mp4": "/solid/static/media/solidVideo.5d7e885e5573241b9b64.mp4",
     "static/media/gallery2.jpg": "/solid/static/media/gallery2.daab5cdc15b8f99ccae4.jpg",
@@ -48,11 +48,11 @@
     "static/media/dorian-yates-nutrition-logo.svg": "/solid/static/media/dorian-yates-nutrition-logo.91205865bae48453389460e3de6a1bab.svg",
     "static/media/nike-logo.svg": "/solid/static/media/nike-logo.30f290172c9f18f1c720f1d4b180a7a9.svg",
     "index.html": "/solid/index.html",
-    "main.00bfe12b.css.map": "/solid/static/css/main.00bfe12b.css.map",
+    "main.cd3d2fae.css.map": "/solid/static/css/main.cd3d2fae.css.map",
     "main.912f1614.js.map": "/solid/static/js/main.912f1614.js.map"
   },
   "entrypoints": [
-    "static/css/main.00bfe12b.css",
+    "static/css/main.cd3d2fae.css",
     "static/js/main.912f1614.js"
   ]
 }
